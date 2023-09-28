@@ -19,7 +19,7 @@ body
     height: 100vh;
     display: flex;
     overflow-x: hidden;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .nav-bar
@@ -151,8 +151,9 @@ letter-spacing: 0em;
     top: 120px;
     right: 248px;
     flex-direction: row;
-    width: 458px;
+    /**width: 458px;**/
     height: 450px;
+    width: 50%;
 }
 
 .right-container
@@ -161,9 +162,8 @@ letter-spacing: 0em;
     top: 120px;
     right: 238px;
 flex-direction: row;
-    width: 530px;
-    height: 450px;
-  
+    width: 50%;
+    height: 450px;  
     background-image: url('../images/Image.png');
     background-position: center;
     background-size: cover;
@@ -172,7 +172,7 @@ flex-direction: row;
 .left-container h1{
 
 font-family: Manrope;
-font-size: 50px;
+font-size: 55px;
 font-weight: 800;
 line-height: 55px;
 text-align: left;
@@ -1125,4 +1125,132 @@ font-weight: 600;
     position: absolute;
 top: 1100px;
 left: 820px;
+}
+
+/*Mobile**/
+@media screen and (max-width: 425px)
+{
+    .nav-bar
+    {
+display: flex;
+    }
+
+   .nav-bar .brand-title
+   {
+    font-size: 25px;
+    margin: 1px auto;
+   }
+    
+ .nav-link .Home
+ {
+    position: relative;
+    right: 370px;
+    top: 55px;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+ .nav-link .About
+ {
+    position: relative;
+    right: 355px;
+    top: 55px;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+ .nav-link .Services
+ {
+    position: relative;
+    right: 340px;
+    top: 55px;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+ .nav-link .Blog
+ {
+    position: relative;
+    right: 325px;
+    top: 55px;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+ .nav-link .Contact
+ {
+    position: relative;
+    right: 310px;
+    top: 55px;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+ .telephone-assistant h3
+ {
+    position: absolute;
+    top: 110px;
+    right: 70px;
+    font-size: 17px;
+    font-weight: 300;
+ }
+
+ .telephone-assistant h4
+ {
+    position: absolute;
+    top: 125px;
+    right: 75px;
+    font-size: 17px;
+    font-weight: 300;
+ }
+
+ .telephone-icon
+ {
+    position: absolute;
+    top: 115px;
+    right: 192px;
+  
+ }
+
+ .telephone-icon img{
+    width: 30px;
+ }
+
+ .left-container
+ {
+    width: 100%;
+
+ }
+
+ .left-container h1
+ {
+    position: relative;
+    right: 350px;
+    font-size: 35px;
+    padding: 0 10px;
+    width: 178%;
+    margin-top: 60px;
+    line-height: 45px;
+    text-align: center;
+ }
+
+ 
+
+ .right-container
+ {
+    width: 100%;
+ }
+
+ .right-container .First-service
+ {
+margin-top: 350px;
+ }
+
+ /**tablet*/
+@media screen and (max-width: 730px)
+{
+
+}
+ 
+
 }
