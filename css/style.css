@@ -242,8 +242,7 @@ font-weight: 600;
 {
     width: 210px;
     height: 70px;
-    background-color: #FFFFFF;
-    
+    background-color: #FFFFFF;   
     position: absolute;
     top: 10px;
     left: 10px;
@@ -1130,6 +1129,9 @@ left: 820px;
 /*Mobile**/
 @media screen and (max-width: 425px)
 {
+    .Container{
+        overflow: none;
+    }
     .nav-bar
     {
 display: flex;
@@ -1190,7 +1192,7 @@ display: flex;
  {
     position: absolute;
     top: 110px;
-    right: 70px;
+    right: 155px;
     font-size: 17px;
     font-weight: 300;
  }
@@ -1199,7 +1201,7 @@ display: flex;
  {
     position: absolute;
     top: 125px;
-    right: 75px;
+    right: 160px;
     font-size: 17px;
     font-weight: 300;
  }
@@ -1208,7 +1210,7 @@ display: flex;
  {
     position: absolute;
     top: 115px;
-    right: 192px;
+    right: 280px;
   
  }
 
@@ -1226,31 +1228,77 @@ display: flex;
  {
     position: relative;
     right: 350px;
-    font-size: 35px;
+    top: 300px;
+    font-size: 25px;
     padding: 0 10px;
-    width: 178%;
+    width: 200%;
     margin-top: 60px;
-    line-height: 45px;
+    line-height: 30px;
     text-align: center;
+    background-color: #FF6433;
+
  }
 
  
 
  .right-container
  {
-    width: 100%;
+    
+    position: absolute;
+    right: 68px;
+    top: 100px;
+    width: 90%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 78%;
+
+
  }
 
  .right-container .First-service
  {
-margin-top: 350px;
+position: absolute;
+right: 120px;
+top: 70px;
+width: 200px;
+height: 73px;
  }
 
- /**tablet*/
+ .right-container .second-service
+ {
+width: 175px;
+height: 60px;
+position: absolute;
+top: 6px;
+ }
+
+ .right-container .first-rating
+ {
+    position: relative;
+    left: 130px;
+    top: 250px;
+    width: 200px;
+    height: 73px;
+ }
+
+ .right-container .second-rating
+ {
+    width: 175px;
+height: 60px;
+position: absolute;
+top: 6px;
+ }
+
+ .second-service h4
+ {
+    font-size: 16px;
+ }
+
+
+}
 @media screen and (max-width: 730px)
 {
 
 }
  
 
-}
