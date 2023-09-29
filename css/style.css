@@ -152,7 +152,7 @@ letter-spacing: 0em;
     right: 248px;
     flex-direction: row;
     /**width: 458px;**/
-    height: 450px;
+    height: 800px;
     width: 50%;
 }
 
@@ -390,7 +390,7 @@ font-family: Arial, Helvetica, sans-serif;
 #left-box
 {
     width: 350px;
-    height: 500px;
+    height: 530px;
     position: relative;
     top: 100px;
     left: 180px;
@@ -1129,9 +1129,16 @@ left: 820px;
 /*Mobile**/
 @media screen and (max-width: 425px)
 {
-    .Container{
-        overflow: none;
+    body{
+        overflow-x: hidden;
     }
+
+    .Container{
+        overflow-x: hidden;
+        display: flex;
+ flex-wrap: wrap;
+    }
+
     .nav-bar
     {
 display: flex;
@@ -1146,45 +1153,45 @@ display: flex;
  .nav-link .Home
  {
     position: relative;
-    right: 370px;
+    right: 360px;
     top: 55px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
  }
 
  .nav-link .About
  {
     position: relative;
-    right: 355px;
+    right: 340px;
     top: 55px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
  }
 
  .nav-link .Services
  {
     position: relative;
-    right: 340px;
+    right: 320px;
     top: 55px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
  }
 
  .nav-link .Blog
  {
     position: relative;
-    right: 325px;
+    right: 300px;
     top: 55px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
  }
 
  .nav-link .Contact
  {
     position: relative;
-    right: 310px;
+    right: 280px;
     top: 55px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
  }
 
@@ -1192,7 +1199,7 @@ display: flex;
  {
     position: absolute;
     top: 110px;
-    right: 155px;
+    right: 123px;
     font-size: 17px;
     font-weight: 300;
  }
@@ -1201,7 +1208,7 @@ display: flex;
  {
     position: absolute;
     top: 125px;
-    right: 160px;
+    right: 130px;
     font-size: 17px;
     font-weight: 300;
  }
@@ -1210,7 +1217,7 @@ display: flex;
  {
     position: absolute;
     top: 115px;
-    right: 280px;
+    right: 250px;
   
  }
 
@@ -1227,39 +1234,32 @@ display: flex;
  .left-container h1
  {
     position: relative;
-    right: 350px;
-    top: 300px;
-    font-size: 25px;
-    padding: 0 10px;
-    width: 200%;
-    margin-top: 60px;
-    line-height: 30px;
+    left: 267px;
+    top: 330px;
+    font-size: 30px;
+    font-weight: 600;
+    width: 90%;
+    line-height: 38px;
     text-align: center;
-    background-color: #FF6433;
-
+height: 700px;
  }
-
- 
 
  .right-container
  {
-    
     position: absolute;
-    right: 68px;
-    top: 100px;
+    right: 20px;
+    top: 190px;
     width: 90%;
-    height: 50vh;
+    height: 45vh;
     background-repeat: no-repeat;
-    background-size: 78%;
-
-
+    background-size: 100%;
  }
 
  .right-container .First-service
  {
 position: absolute;
-right: 120px;
-top: 70px;
+right: 160px;
+top: 20px;
 width: 200px;
 height: 73px;
  }
@@ -1275,8 +1275,8 @@ top: 6px;
  .right-container .first-rating
  {
     position: relative;
-    left: 130px;
-    top: 250px;
+    left: 170px;
+    top: 220px;
     width: 200px;
     height: 73px;
  }
@@ -1286,7 +1286,7 @@ top: 6px;
     width: 175px;
 height: 60px;
 position: absolute;
-top: 6px;
+top: 5px;
  }
 
  .second-service h4
@@ -1294,6 +1294,139 @@ top: 6px;
     font-size: 16px;
  }
 
+.circle-icon
+{
+ 
+position: absolute;
+top: 5px;
+}
+
+.left-container img{
+
+position: absolute;
+left: 310px;
+top: 565px;
+}
+
+.left-container .myBtn{
+    position: absolute;
+    top: 450px;
+    left: 375px;
+    width: 130px;
+    height: 50px;
+    
+}
+
+.left-container p{
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.left-container h5{
+    position: absolute;
+    top: 575px;
+    left: 350px;
+    width: 100%;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 600;
+}
+
+#small-container #left-box
+{
+position: relative;
+top: 30px;
+left: 20px;
+}
+
+#left-box h2
+{
+    font-size: 43px;
+}
+
+.first-left-box img{
+    position: relative;
+    bottom: 10px;
+}
+
+.first-left-box h4{
+position: absolute;
+top: 130px;
+}
+
+.first-left-box p{
+font-size: 18px;
+font-weight: 600;
+position: absolute;
+top: 160px;
+left: 10px;
+line-height: 25px;
+}
+
+.second-left-box img{
+    position: relative;
+    top: 35px;
+}
+
+.second-left-box h4{
+    position: absolute;
+    left: 55px;
+    top: 250px;
+}
+
+.second-left-box p{
+    font-size: 18px;
+font-weight: 600;
+position: absolute;
+top: 283px;
+left: 10px;
+line-height: 25px;
+}
+
+.third-left-box img{
+    position: relative;
+    top: 80px;
+}
+
+.third-left-box h4{
+    position: absolute;
+    top: 370px;
+}
+
+.third-left-box p{
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    line-height: 25px;
+}
+
+.third-left-box h6{
+    position: absolute;
+    top: 480px;
+    left: 10px;
+}
+
+.third-left-box .arrow{
+    margin: 17px 10px;
+}
+
+#right-box
+{
+    /**background-color: #661CE7;**/
+    position: absolute;
+top: 600px;
+left: 20px;
+width: 100%;
+}
+
+#right-box input{
+width: 90%;
+}
 
 }
 @media screen and (max-width: 730px)
