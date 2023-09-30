@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Manrope:wght@200;400;700&family=Montserrat:ital,wght@1,100;1,500&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@300;400;500;700;800&display=swap');
 *
 {
     margin: 0;
@@ -9,6 +10,7 @@
 body
 {
     overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;;
 }
 
 .Container
@@ -390,7 +392,7 @@ font-family: Arial, Helvetica, sans-serif;
 #left-box
 {
     width: 350px;
-    height: 530px;
+    height: 600px;
     position: relative;
     top: 100px;
     left: 180px;
@@ -536,7 +538,7 @@ form
     position: relative;
     top: 50px;
     background-color: #FFFFFF;
-    height: 520px;
+    height: 600px;
     
 }
 
@@ -1129,6 +1131,11 @@ left: 820px;
 /*Mobile**/
 @media screen and (max-width: 425px)
 {
+   /** *
+    {
+border: 1px solid red;
+    }**/
+
     body{
         overflow-x: hidden;
     }
@@ -1152,72 +1159,57 @@ display: flex;
     
  .nav-link .Home
  {
-    position: relative;
-    right: 360px;
-    top: 55px;
-    font-size: 20px;
+   
+    margin: 50px -525px 0 0;
+    font-size: 16px;
     font-weight: 600;
  }
 
  .nav-link .About
  {
-    position: relative;
-    right: 340px;
-    top: 55px;
-    font-size: 20px;
+    margin: 50px -490px 0 0;
+    font-size: 16px;
     font-weight: 600;
  }
 
  .nav-link .Services
  {
-    position: relative;
-    right: 320px;
-    top: 55px;
-    font-size: 20px;
+    margin: 50px -480px 0 0;
+    font-size: 16px;
     font-weight: 600;
  }
 
  .nav-link .Blog
  {
-    position: relative;
-    right: 300px;
-    top: 55px;
-    font-size: 20px;
+    margin: 50px -470px 0 0;
+    font-size: 16px;
     font-weight: 600;
  }
 
  .nav-link .Contact
  {
-    position: relative;
-    right: 280px;
-    top: 55px;
-    font-size: 20px;
+    margin: 52px -460px 0 0;    
+    font-size: 15px;
     font-weight: 600;
  }
 
  .telephone-assistant h3
  {
-    position: absolute;
-    top: 110px;
-    right: 123px;
+    margin: 90px -160px 0 0; 
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 600;
  }
 
  .telephone-assistant h4
  {
-    position: absolute;
-    top: 125px;
-    right: 130px;
+    margin: 90px -140px 0 0; 
     font-size: 17px;
     font-weight: 300;
  }
 
  .telephone-icon
  {
-    position: absolute;
-    top: 115px;
-    right: 250px;
+    margin: 90px -160px 0 0; 
   
  }
 
@@ -1241,7 +1233,12 @@ display: flex;
     width: 90%;
     line-height: 38px;
     text-align: center;
-height: 700px;
+
+ }
+
+ .left-container
+ {
+    height: 2500px;
  }
 
  .right-container
@@ -1257,16 +1254,14 @@ height: 700px;
 
  .right-container .First-service
  {
-position: absolute;
-right: 160px;
-top: 20px;
+    margin: -20px -175px 0 0; 
 width: 200px;
 height: 73px;
  }
 
  .right-container .second-service
  {
-width: 175px;
+width: 180px;
 height: 60px;
 position: absolute;
 top: 6px;
@@ -1274,16 +1269,14 @@ top: 6px;
 
  .right-container .first-rating
  {
-    position: relative;
-    left: 170px;
-    top: 220px;
+    margin: -72px -160px 0 -175px; 
     width: 200px;
     height: 73px;
  }
 
  .right-container .second-rating
  {
-    width: 175px;
+    width: 180px;
 height: 60px;
 position: absolute;
 top: 5px;
@@ -1302,30 +1295,32 @@ top: 5px;
 }
 
 .left-container img{
-
+display: none;
 position: absolute;
 left: 310px;
 top: 565px;
 }
 
 .left-container .myBtn{
-    position: absolute;
-    top: 450px;
-    left: 375px;
+    
+    margin: 360px 0 0 380px;
+    
     width: 130px;
     height: 50px;
     
 }
 
 .left-container p{
+    display: none;
     position: absolute;
     top: 450px;
-    left: 350px;
+    
     width: 100%;
     font-size: 18px;
 }
 
 .left-container h5{
+    display: none;
     position: absolute;
     top: 575px;
     left: 350px;
@@ -1337,101 +1332,724 @@ top: 565px;
 
 #small-container #left-box
 {
-position: relative;
-top: 30px;
-left: 20px;
+
+margin-left: -150px;
 }
 
 #left-box h2
 {
-    font-size: 43px;
+    font-size: 33px;
+    margin-top: -40px;
 }
 
 .first-left-box img{
-    position: relative;
-    bottom: 10px;
+    
+    margin-left: -15px;
 }
 
 .first-left-box h4{
-position: absolute;
-top: 130px;
+
+margin: -50px 0 0 -5px;
+
 }
 
 .first-left-box p{
 font-size: 18px;
-font-weight: 600;
-position: absolute;
-top: 160px;
-left: 10px;
+font-weight: 400;
+margin: -10px 0 0 -2px;
 line-height: 25px;
 }
 
 .second-left-box img{
-    position: relative;
-    top: 35px;
+    
+    margin: -10px 0 0 -10px;
 }
 
 .second-left-box h4{
-    position: absolute;
-    left: 55px;
-    top: 250px;
+    margin: -45px 0 0 -5px;
 }
 
 .second-left-box p{
     font-size: 18px;
-font-weight: 600;
-position: absolute;
-top: 283px;
-left: 10px;
+font-weight: 400;
+margin: -10px 0 0 -2px;
 line-height: 25px;
 }
 
 .third-left-box img{
-    position: relative;
-    top: 80px;
+    margin: -15px 0 0 -10px;
 }
 
 .third-left-box h4{
-    position: absolute;
-    top: 370px;
+    margin: -30px 0 0 -5px;
 }
 
 .third-left-box p{
     font-size: 18px;
-    font-weight: 600;
-    position: absolute;
-    top: 400px;
-    left: 10px;
+    font-weight: 400;
+    margin: -1px 0 0 -2px;
     line-height: 25px;
 }
 
 .third-left-box h6{
-    position: absolute;
-    top: 480px;
-    left: 10px;
+    margin-left: 20px;
 }
 
 .third-left-box .arrow{
-    margin: 17px 10px;
+    margin: -3px 10px;
 }
+
+#right-box .myBtn{
+    margin: 10px 0 0 100px;
+}
+
+
 
 #right-box
 {
-    /**background-color: #661CE7;**/
+    
     position: absolute;
 top: 600px;
 left: 20px;
 width: 100%;
+
 }
 
 #right-box input{
 width: 90%;
 }
 
+#right-box h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
 }
-@media screen and (max-width: 730px)
-{
 
+.third-section
+{
+    height: 1000px;
+}
+
+.third-left-section h2{
+    width: 280%;
+    margin: -10px 0 0 -200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.third-left-section p{
+    width: 350px;
+    margin: 20px 0 0 -200px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.third-left-section .myBtn{
+    
+    margin: 20px 0 0 -100px;
+}
+
+.third-right-section .Get-quote-circle{
+    position: relative;
+    right: 720px;
+    top: 450px;
+}
+
+.third-right-section .Get-quote .line{
+    position: absolute;
+    left: 60px;
+    top: 520px;
+}
+
+.third-right-section .Get-quote h2{
+   
+   margin: 470px 0 0 -710px;
+}
+
+.third-right-section .Get-quote p{
+    margin: -1px -200px 0 -710px;
+    width: 200%;
+ 
+ }
+
+ .Book-appointment-circle
+ {
+   
+    margin:20px 0 0 -702px;
+ }
+
+ .third-right-section .Book-appointment h2{
+    margin: 40px 0 0 -705px;
+    
+ }
+
+ .third-right-section .Book-appointment p{
+    margin: -1px 0 0 -705px;
+    width: 200%;
+ }
+
+ .third-right-section .Book-appointment .line{
+    position: absolute;
+    left: 66px;
+    top: 660px;    
+ }
+
+.third-right-section .service-done-circle{
+    margin: 20px 0 0 -701px;
+}
+
+.third-right-section .service-done h2{
+    margin: -20px 0 0 -705px;
+    
+}
+
+.third-right-section .service-done p{
+    margin: -1px 0 0 -705px;
+    width: 200%;
+}
+
+.fourth-section h3
+{
+padding-top: 20px;
+}
+
+.fourth-section h2 {
+    margin-left: -390px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.fourth-section .box1{
+margin: 10px 0 0 -160px;
+width: 150px;
+}
+
+.fourth-section .box2{
+    margin: 2px 0 0 -200px;
+    width: 150px;
+    }
+
+    .fourth-section .box3{
+        margin: 170px 0 0 -570px;
+        width: 150px;
+        }
+
+        .fourth-section .box4{
+            margin: 3px 80px 0 -610px;
+            width: 150px;
+          
+        }
+
+        .fourth-section .box5{
+            margin: 15px 80px 0 -160px;
+            width: 150px;
+        }
+
+        .fourth-section .box6{
+            margin: 1px 80px 0 -200px;
+            width: 150px;
+        }
+
+        .fourth-section .box7{
+            margin: 170px 80px 0 -570px;
+            width: 150px;
+        }
+
+        .fourth-section .box8{
+            margin: 1px 80px 0 -610px;
+            width: 150px;
+        }
+
+        .fourth-left-section 
+        {
+            margin-top: 200px;
+        }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 850px)
+{
+.brand-title
+{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 5px 155px;
+}
+
+
+.Home{
+    margin-left: 130px;
+    position: absolute;
+    left: 0;  
+}
+
+.About
+{
+    margin-right: -230px;
+   
+}
+
+.Contact{
+margin-right: -360px;
+}
+
+.Blog
+{
+    margin-right: -310px;
+}
+
+.Services
+{
+    margin-right: -270px;
+}
+
+.nav-link li {
+    margin-top: 150px;
+    
+}
+
+.nav-link li a{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.telephone-assistant .telephone-icon{
+    margin: 210px 50px 0 100px;
+}
+
+.telephone-assistant h3
+{
+    margin: 210px -30px 0 -390px;
+    font-size: 30px;
+}
+
+.telephone-assistant h4
+{
+    margin: 220px -20px 0 -390px;
+    font-size: 30px;
+}
+
+.left-container
+{
+    height: 1000px;
 }
  
+.left-container h1{
+    position: absolute;
+    z-index: 1;
+margin: 500px 100px 0 -430px;
+width: 2100%;
+text-align: center;
+    color: #FFFFFF;
+    line-height: 70px;
+}
 
+.left-container .myBtn{
+margin: 800px 90px 20px -280px;
+padding: 20px;
+position: absolute;
+z-index: 1;
+width: 200px;
+height: 70px;
+font-size: 23px;
+}
+
+
+
+.right-container
+ {
+position: absolute;
+left: 0;
+margin: 270px 0 0 30px;
+padding:0 70px 0 660px;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .right-container .First-service{
+    margin: 90px 200px 0 100px;
+ }
+
+ .right-container .first-rating{
+    margin: 390px 400px 0 170px;
+ }
+
+ #small-container{
+height: 1450px;
+ }
+
+ .left-container p{
+    margin: 500px -100px 0 -450px;
+
+   color: #FFFFFF;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+ }
+
+ #left-box h2{
+    font-size: 42px;
+    font-weight: 700;
+    width: 280%;
+    margin-left: -140px;
+ }
+
+ .first-left-box img{
+    margin: 15px 10px 0 -140px;
+    width: 20%
+ }
+
+ .first-left-box h4{
+    margin: -18px 10px 0 -100px;
+    font-size: 35px;
+ }
+
+.first-left-box p{
+    margin: -3px 10px 0 -85px;
+    font-size: 28px;
+    width: 200%;
+    line-height: 35px;
+}
+
+.second-left-box img{
+    margin: 10px 10px 0 -140px;
+    width: 20%
+ }
+
+ .second-left-box h4{
+    margin: 50px 10px 0 -90px;
+    font-size: 35px;
+ }
+
+.second-left-box p{
+    margin: -3px 10px 0 -85px;
+    font-size: 28px;
+    width: 200%;
+    line-height: 35px;
+}
+
+.third-left-box img{
+    margin: 10px 10px 0 -140px;
+    width: 20%
+ }
+
+ .third-left-box h4{
+    margin: 105px 10px 0 -90px;
+    font-size: 35px;
+ }
+
+.third-left-box p{
+    margin: -3px 10px 0 -80px;
+    font-size: 28px;
+    width: 200%;
+    line-height: 35px;
+}
+
+.third-left-box h6{
+    font-size: 30px;
+} 
+
+.third-left-box .arrow{
+    margin: 157px 150px;
+}
+
+ #right-box
+ {
+    margin: 850px 100px 0 -660px;
+    
+    width: 100%;
+ }
+
+ #right-box h3{
+  font-size: 42px;
+  padding-left: 70px;
+ }
+
+ #right-box form{
+    margin-top: 30px
+ }
+
+ #right-box input{
+    margin-left: 50px;
+    margin-top: 5px;
+ }
+
+/** #right-box #number{
+    position: absolute;
+    top: 300px;
+    margin-left: -505px;
+ }**/
+
+ #right-box .myBtn{
+    margin-left: -500px;
+    margin-top: -70px;
+    position: relative;
+    top: 80px;
+ }
+
+ .third-left-section{
+    margin-top: -20px;
+    width: 50%;
+    margin-left: -200px;
+
+ }
+
+ .third-left-section h2{
+    width: 100%;
+    margin-left: -5px;
+ }
+
+ .third-left-section p{
+    width: 100%;
+    margin: 20px -5px;
+    font-size: 28px;
+    line-height: 40px;
+ }
+ 
+ .third-left-section .myBtn{
+    margin: -10px 70px;
+    font-size: 23px;
+    width: 170px;
+    height: 60px;
+ }
+
+ .third-right-section
+ {
+    position: relative;
+  left: 0;
+  background-color: #FFFFFF;
+ margin-left: 500px; 
+ width: 50%;
+ }
+
+ .Get-quote-circle{
+margin-left: -20px;
+ }
+
+ .Get-quote .line{
+    margin: 10px 0 0 -18px;
+ }
+
+.Get-quote h2
+{
+    margin: -16px 0 0  -23px;
+    font-size: 22px;
+}
+
+.Get-quote p{
+font-size: 18px;
+width: 56%;
+font-weight: bolder;
+margin-left: -23px;
+}
+
+.Book-appointment-circle{
+    margin-left: -20px;
+}
+
+.Book-appointment h2
+{
+    margin: -10px 0 0 -23px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.Book-appointment p{
+font-size: 18px;
+width: 56%;
+font-weight: 700;
+margin-left: -23px;
+}
+
+.Book-appointment .line{
+    margin: 10px 0 0 -18px;
+}
+
+.service-done-circle{
+    margin-left: -20px;
+}
+
+.service-done h2
+{
+    margin: -10px 0 0 -23px;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.service-done p{
+font-size: 18px;
+width: 56%;
+font-weight: 700;
+margin-left: -23px;
+}
+
+.fourth-section
+{
+height: 3000px;
+}
+
+.fourth-section h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.fourth-section h2{
+    margin: 30px 0 0 -300px;
+    width: 90%;
+}
+
+.box-container{
+margin-top: 120px
+}
+
+.box1{
+    margin-left:-35px;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+}
+
+.box1 img{
+    width: 20%;
+}
+
+.box1 p{
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+}
+
+.box2
+{
+    margin: -80px 0 0 7px;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+}
+
+.box2 img{
+    width: 20%;
+}
+
+.box2 p{
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+}
+
+.box3
+{
+    margin: 170px 0 0 -445px;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+}
+
+.box3 img{
+    width: 20%;
+}
+
+.box3 p{
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+}
+
+
+.box4
+{
+    margin: -79px -30px 0 -399px;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+    
+}
+
+.box4 img{
+    width: 20%;
+}
+
+.box4 p{
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+}
+
+.box5
+{
+    margin: 20px -90px 0 -35px;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+}
+
+.box5 img{
+    width: 30%;
+}
+
+.box5 p{
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+}
+
+
+.box6
+{
+    margin: -80px -90px 0 10px;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+}
+
+.box6 img{
+    width: 30%;
+}
+
+.box6 p{
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+}
+
+.box7
+{
+    margin: 180px -90px 0 -442px;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+}
+
+.box7 img{
+    width: 20%;
+}
+
+.box7 p{
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+}
+
+.box8{
+    margin: -78px -90px 0 -398px;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+}
+
+.box8 img{
+    width: 20%;
+}
+
+.box8 p{
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+}
+
+
+}
