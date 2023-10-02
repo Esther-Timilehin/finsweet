@@ -195,10 +195,6 @@ border-radius: 8px;
 margin-top: 25px;
 }
 
-.left-container p
-{
-    padding-top: 100px;
-}
 
 .left-container img
 {
@@ -212,8 +208,8 @@ width: 25px;
 .left-container p
 {
     position: absolute;
-    bottom: 100px;
-    left: 32px;
+    top: 340px;
+    left: 40px;
     color: #939191;
 font-size: 13px;
 }
@@ -221,8 +217,8 @@ font-size: 13px;
 .left-container h5
 {
     position: absolute;
-    bottom: 80px;
-    left: 32px;
+    top: 360px;
+    left: 40px;
     color:  #1E1B1B;
 font-size: 14px;
 font-weight: 600;
@@ -1156,49 +1152,49 @@ display: flex;
  .nav-link .Home
  {
    
-    margin: 50px -525px 0 0;
+    margin: 50px -500px 0 0;
     font-size: 16px;
     font-weight: 600;
  }
 
  .nav-link .About
  {
-    margin: 50px -490px 0 0;
+    margin: 50px -470px 0 0;
     font-size: 16px;
     font-weight: 600;
  }
 
  .nav-link .Services
  {
-    margin: 50px -480px 0 0;
+    margin: 50px -460px 0 0;
     font-size: 16px;
     font-weight: 600;
  }
 
  .nav-link .Blog
  {
-    margin: 50px -470px 0 0;
+    margin: 50px -450px 0 0;
     font-size: 16px;
     font-weight: 600;
  }
 
  .nav-link .Contact
  {
-    margin: 52px -460px 0 0;    
+    margin: 52px -440px 0 0;    
     font-size: 15px;
     font-weight: 600;
  }
 
  .telephone-assistant h3
  {
-    margin: 90px -160px 0 0; 
+    margin: 90px -170px 0 0; 
     font-size: 17px;
     font-weight: 600;
  }
 
  .telephone-assistant h4
  {
-    margin: 90px -140px 0 0; 
+    margin: 90px -150px 0 0; 
     font-size: 17px;
     font-weight: 300;
  }
@@ -1223,7 +1219,7 @@ display: flex;
  {
     position: relative;
     left: 267px;
-    top: 330px;
+    top: 290px;
     font-size: 30px;
     font-weight: 600;
     width: 90%;
@@ -1234,7 +1230,8 @@ display: flex;
 
  .left-container
  {
-    height: 2500px;
+    height: 3500px;
+    
  }
 
  .right-container
@@ -1243,7 +1240,7 @@ display: flex;
     right: 20px;
     top: 190px;
     width: 90%;
-    height: 45vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: 100%;
  }
@@ -1265,7 +1262,7 @@ top: 6px;
 
  .right-container .first-rating
  {
-    margin: -72px -160px 0 -182px; 
+    margin: -120px -160px 0 -170px; 
     width: 200px;
     height: 73px;
  }
@@ -1291,39 +1288,40 @@ top: 5px;
 }
 
 .left-container img{
-display: none;
+
 position: absolute;
-left: 310px;
-top: 565px;
+left: 280px;
+top: 550px;
+width: 30px;
 }
 
 .left-container .myBtn{
-    
-    margin: 360px 0 0 380px;
-    
+    margin: 320px 0 0 380px;
     width: 130px;
     height: 50px;
     
 }
 
 .left-container p{
-    display: none;
-    position: absolute;
-    top: 450px;
     
+    position: absolute;
+    top: 535px;
+    left: 320px;
     width: 100%;
     font-size: 18px;
+    z-index: 1;
 }
 
 .left-container h5{
-    display: none;
+    
     position: absolute;
-    top: 575px;
-    left: 350px;
+    top: 565px;
+    left: 320px;
     width: 100%;
     font-size: 14px;
     width: 100%;
     font-weight: 600;
+    
 }
 
 #small-container #left-box
@@ -1345,14 +1343,14 @@ margin-left: -150px;
 
 .first-left-box h4{
 
-margin: -50px 0 0 -5px;
+margin: -65px 0 0 -5px;
 
 }
 
 .first-left-box p{
 font-size: 18px;
 font-weight: 400;
-margin: -10px 0 0 -2px;
+margin: -10px 0 0 5px;
 line-height: 25px;
 }
 
@@ -1362,13 +1360,13 @@ line-height: 25px;
 }
 
 .second-left-box h4{
-    margin: -45px 0 0 -5px;
+    margin: -55px 0 0 3px;
 }
 
 .second-left-box p{
     font-size: 18px;
 font-weight: 400;
-margin: -10px 0 0 -2px;
+margin: -10px 0 0 10px;
 line-height: 25px;
 }
 
@@ -1377,13 +1375,13 @@ line-height: 25px;
 }
 
 .third-left-box h4{
-    margin: -30px 0 0 -5px;
+    margin: -50px 0 0 3px;
 }
 
 .third-left-box p{
     font-size: 18px;
     font-weight: 400;
-    margin: -1px 0 0 -2px;
+    margin: -5px 0 0 15px;
     line-height: 25px;
 }
 
@@ -1392,14 +1390,12 @@ line-height: 25px;
 }
 
 .third-left-box .arrow{
-    margin: -3px 10px;
+    margin: -20px 10px;
 }
 
 #right-box .myBtn{
     margin: 10px 0 0 100px;
 }
-
-
 
 #right-box
 {
@@ -1428,15 +1424,15 @@ width: 90%;
 
 .third-left-section h2{
     width: 280%;
-    margin: -10px 0 0 -200px;
+    margin: -30px 0 0 -200px;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 800;
 }
 
 .third-left-section p{
     width: 350px;
-    margin: 20px 0 0 -200px;
+    margin: 30px 0 0 -200px;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -1444,7 +1440,7 @@ width: 90%;
 
 .third-left-section .myBtn{
     
-    margin: 20px 0 0 -100px;
+    margin: 30px 0 0 -100px;
 }
 
 .third-right-section .Get-quote-circle{
@@ -1455,7 +1451,7 @@ width: 90%;
 
 .third-right-section .Get-quote .line{
     position: absolute;
-    left: 40px;
+    left: 35px;
     top: 520px;
 }
 
@@ -1488,7 +1484,7 @@ width: 90%;
 
  .third-right-section .Book-appointment .line{
     position: absolute;
-    left: 40px;
+    left: 35px;
     top: 660px;    
  }
 
@@ -1582,12 +1578,9 @@ width: 150px;
    margin-right: 200px;
   }
 
-
-
  .fourth-section
  {
-    height: 2500px;
-    
+    height: 2300px;
  }
 
  .fourth-left-section
@@ -1678,38 +1671,44 @@ margin: 200px 0 0 50px;
 
 @media screen and (min-width: 425px) and (max-width: 850px)
 {
+    html, body
+    {
+overflow-x: hidden;
+max-width: 100%;
+    }
+
 .brand-title
 {
     font-size: 45px;
     font-weight: 600;
-    margin: 5px 155px;
+    margin: 20px 155px;
 }
 
 
 .Home{
-    margin-left: 130px;
+    margin-left: 90px;
     position: absolute;
     left: 0;  
 }
 
 .About
 {
-    margin-right: -230px;
+    margin-right: -180px;
    
 }
 
 .Contact{
-margin-right: -360px;
+margin-right: -405px;
 }
 
 .Blog
 {
-    margin-right: -310px;
+    margin-right: -320px;
 }
 
 .Services
 {
-    margin-right: -270px;
+    margin-right: -260px;
 }
 
 .nav-link li {
@@ -1728,33 +1727,62 @@ margin-right: -360px;
 
 .telephone-assistant h3
 {
-    margin: 210px -30px 0 -390px;
+    margin: 210px -50px 0 -290px;
     font-size: 30px;
 }
 
 .telephone-assistant h4
 {
-    margin: 220px -20px 0 -390px;
+    margin: 220px -45px 0 -390px;
     font-size: 30px;
+}
+
+.line
+{
+    margin: 210px -30px 0 -10px;
 }
 
 .left-container
 {
     height: 1000px;
 }
+
+.left-container img
+{
+    width: 80%;
+    margin: 820px 290px 0 0;
+    position: absolute;
+    z-index: 1;
+}
  
+.left-container p{
+position: absolute;
+top: 400px;
+left: 55px;
+}
+
+.left-container h5{
+    width: 300px;
+    font-size: 20px;
+    position: absolute;
+    top: 930px;
+    left: -395px;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
 .left-container h1{
     position: absolute;
     z-index: 1;
 margin: 500px 100px 0 -430px;
-width: 2100%;
+width: 600px;
 text-align: center;
     color: #FFFFFF;
     line-height: 70px;
 }
 
 .left-container .myBtn{
-margin: 800px 90px 20px -280px;
+margin: 800px 90px 20px -230px;
 padding: 20px;
 position: absolute;
 z-index: 1;
@@ -1763,14 +1791,12 @@ height: 70px;
 font-size: 23px;
 }
 
-
-
 .right-container
  {
 position: absolute;
 left: 0;
-margin: 270px 0 0 30px;
-padding:0 70px 0 660px;
+margin: 270px 0 0 53px;
+padding:0 70px 0 650px;
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1781,7 +1807,7 @@ padding:0 70px 0 660px;
  }
 
  .right-container .first-rating{
-    margin: 390px 400px 0 170px;
+    margin: 300px 400px 0 170px;
  }
 
  #small-container{
@@ -1790,7 +1816,6 @@ height: 1450px;
 
  .left-container p{
     margin: 500px -100px 0 -450px;
-
    color: #FFFFFF;
     font-size: 20px;
     position: absolute;
@@ -1810,7 +1835,7 @@ height: 1450px;
  }
 
  .first-left-box h4{
-    margin: -18px 10px 0 -100px;
+    margin: -17px 10px 0 -100px;
     font-size: 35px;
  }
 
@@ -1827,7 +1852,7 @@ height: 1450px;
  }
 
  .second-left-box h4{
-    margin: 50px 10px 0 -90px;
+    margin: 40px 10px 0 -93px;
     font-size: 35px;
  }
 
@@ -1844,12 +1869,12 @@ height: 1450px;
  }
 
  .third-left-box h4{
-    margin: 105px 10px 0 -90px;
+    margin: 105px 10px 0 -100px;
     font-size: 35px;
  }
 
 .third-left-box p{
-    margin: -3px 10px 0 -80px;
+    margin: -1px 10px 0 -93px;
     font-size: 28px;
     width: 200%;
     line-height: 35px;
@@ -1857,10 +1882,11 @@ height: 1450px;
 
 .third-left-box h6{
     font-size: 30px;
+    margin-top: 30px;
 } 
 
 .third-left-box .arrow{
-    margin: 157px 150px;
+    margin: 180px 150px;
 }
 
  #right-box
@@ -1872,7 +1898,7 @@ height: 1450px;
 
  #right-box h3{
   font-size: 42px;
-  padding-left: 70px;
+  margin: -20px 0 0 100px;
  }
 
  #right-box form{
@@ -1880,21 +1906,14 @@ height: 1450px;
  }
 
  #right-box input{
-    margin-left: 50px;
-    margin-top: 5px;
+    margin: 5px 0 0 50px;
+    
  }
 
-/** #right-box #number{
-    position: absolute;
-    top: 300px;
-    margin-left: -505px;
- }**/
-
  #right-box .myBtn{
-    margin-left: -500px;
-    margin-top: -70px;
+    margin: -90px 0 0 -500px;
     position: relative;
-    top: 80px;
+    top: 90px;
  }
 
  .third-left-section{
@@ -1911,13 +1930,13 @@ height: 1450px;
 
  .third-left-section p{
     width: 100%;
-    margin: 20px -5px;
+    margin: 30px -5px;
     font-size: 28px;
     line-height: 40px;
  }
  
  .third-left-section .myBtn{
-    margin: -10px 70px;
+    margin: 15px 70px;
     font-size: 23px;
     width: 170px;
     height: 60px;
@@ -1933,17 +1952,19 @@ height: 1450px;
  }
 
  .Get-quote-circle{
-margin-left: -20px;
+margin-left: -15px;
  }
 
  .Get-quote .line{
-    margin: 10px 0 0 -18px;
+    margin: 10px 0 0 -15px;
+    width: 2px;
  }
 
 .Get-quote h2
 {
     margin: -16px 0 0  -23px;
-    font-size: 22px;
+    font-size: 21px;
+    font-weight: 900;
 }
 
 .Get-quote p{
@@ -1954,13 +1975,13 @@ margin-left: -23px;
 }
 
 .Book-appointment-circle{
-    margin-left: -20px;
+    margin-left: -15px;
 }
 
 .Book-appointment h2
 {
-    margin: -10px 0 0 -23px;
-    font-size: 22px;
+    margin: -17px 0 0 -20px;
+    font-size: 21px;
     font-weight: 900;
 }
 
@@ -1968,21 +1989,22 @@ margin-left: -23px;
 font-size: 18px;
 width: 56%;
 font-weight: 700;
-margin-left: -23px;
+margin-left: -20px;
 }
 
 .Book-appointment .line{
-    margin: 10px 0 0 -18px;
+    margin: 10px 0 0 -15px;
+    width: 2px;
 }
 
 .service-done-circle{
-    margin-left: -20px;
+    margin-left: -15px;
 }
 
 .service-done h2
 {
     margin: -10px 0 0 -23px;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 900;
 }
 
@@ -2005,7 +2027,9 @@ height: 3000px;
 
 .fourth-section h2{
     margin: 30px 0 0 -300px;
-    width: 90%;
+    width: 70%;
+    line-height: 65px;
+    text-align: center;
 }
 
 .box-container{
@@ -2013,7 +2037,7 @@ margin-top: 120px
 }
 
 .box1{
-    margin-left:-35px;
+    margin: -70px 0 0 -20px;
     width: 230px;
     height: 230px;
     text-align: center;
@@ -2031,7 +2055,7 @@ text-align: center;
 
 .box2
 {
-    margin: -80px 0 0 7px;
+    margin: -80px 0 0 25px;
     width: 230px;
     height: 230px;
     text-align: center;
@@ -2049,7 +2073,7 @@ text-align: center;
 
 .box3
 {
-    margin: 170px 0 0 -445px;
+    margin: 170px 0 0 -430px;
     width: 230px;
     height: 230px;
     text-align: center;
@@ -2068,7 +2092,7 @@ text-align: center;
 
 .box4
 {
-    margin: -79px -30px 0 -399px;
+    margin: -79px -30px 0 -383px;
     width: 230px;
     height: 230px;
     text-align: center;
@@ -2087,7 +2111,7 @@ text-align: center;
 
 .box5
 {
-    margin: 20px -90px 0 -35px;
+    margin: 20px -90px 0 -20px;
     width: 230px;
     height: 230px;
     text-align: center;
@@ -2106,7 +2130,7 @@ text-align: center;
 
 .box6
 {
-    margin: -80px -90px 0 10px;
+    margin: -80px -90px 0 25px;
     width: 230px;
     height: 230px;
     text-align: center;
@@ -2124,7 +2148,7 @@ text-align: center;
 
 .box7
 {
-    margin: 180px -90px 0 -442px;
+    margin: 170px -90px 0 -430px;
     width: 230px;
     height: 230px;
     text-align: center;
@@ -2141,7 +2165,7 @@ text-align: center;
 }
 
 .box8{
-    margin: -78px -90px 0 -398px;
+    margin: -78px -90px 0 -383px;
     width: 230px;
     height: 230px;
     text-align: center;
@@ -2157,5 +2181,86 @@ font-weight: bolder;
 text-align: center;
 }
 
+.learn-services p
+{
+position: absolute;
+left: -550px;
+top: 20px;
+font-size: 25px;
+}
 
+.learn-services img
+{
+position: absolute;
+left: -300px;
+top: 23px;
+width: 10%;
+}
+.fourth-left-section
+{
+    margin-top: 100px;   
+    width: 100%;
+}
+
+.fourth-left-card{
+margin-left: 400px;
+width: 450px;
+}
+
+.fourth-left-card h3{
+    text-align: center;
+    line-height: 50px;
+}
+
+.fourth-left-card .myBtn{
+    margin: 235px 0 0 180px;
+    font-size: 20px;
+}
+
+.fourth-right-section{
+    margin-top: 350px;
+    margin-left: -675px;
+    width: 100%;
+}
+
+.bottom-card .proffesional h2{
+    margin: 1350px 0 0 -260px;
+    font-size: 60px;
+}
+
+.bottom-card .proffesional p{
+    margin: 1370px 0 0 -45px;
+    font-size: 25px;
+
+}
+
+.bottom-card .Experience h2{
+    margin: 1350px 0 0 -180px;
+    font-size: 60px;
+}
+
+.bottom-card .Experience p{
+    margin: 1370px 0 0 25px;
+    font-size: 25px;
+}
+
+.bottom-card .Service h2{
+    margin: 1550px 0 0 -640px;
+    font-size: 60px;
+}
+
+.bottom-card .Service p{
+    margin: 1575px 0 0 -450px;
+    font-size: 25px;
+}
+
+.bottom-card .customer-satisfaction h2{
+    margin: 1550px 0 0 -540px;
+    font-size: 60px;
+}
+
+.bottom-card .customer-satisfaction p{
+    margin: 1575px 0 0 -370px;
+    font-size: 25px;
+}
 }
