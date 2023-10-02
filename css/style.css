@@ -1131,10 +1131,11 @@ left: 820px;
 /*Mobile**/
 @media screen and (max-width: 425px)
 {
-   /** *
-    {
-border: 1px solid red;
-    }**/
+    html, body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+   
 
     body{
         overflow-x: hidden;
@@ -1269,7 +1270,7 @@ top: 6px;
 
  .right-container .first-rating
  {
-    margin: -72px -160px 0 -175px; 
+    margin: -72px -160px 0 -182px; 
     width: 200px;
     height: 73px;
  }
@@ -1453,23 +1454,23 @@ width: 90%;
 
 .third-right-section .Get-quote-circle{
     position: relative;
-    right: 720px;
+    right: 740px;
     top: 450px;
 }
 
 .third-right-section .Get-quote .line{
     position: absolute;
-    left: 60px;
+    left: 40px;
     top: 520px;
 }
 
 .third-right-section .Get-quote h2{
    
-   margin: 470px 0 0 -710px;
+   margin: 470px 0 0 -730px;
 }
 
 .third-right-section .Get-quote p{
-    margin: -1px -200px 0 -710px;
+    margin: -1px -200px 0 -730px;
     width: 200%;
  
  }
@@ -1477,36 +1478,36 @@ width: 90%;
  .Book-appointment-circle
  {
    
-    margin:20px 0 0 -702px;
+    margin:20px 0 0 -730px;
  }
 
  .third-right-section .Book-appointment h2{
-    margin: 40px 0 0 -705px;
+    margin: 40px 0 0 -730px;
     
  }
 
  .third-right-section .Book-appointment p{
-    margin: -1px 0 0 -705px;
+    margin: -1px 0 0 -730px;
     width: 200%;
  }
 
  .third-right-section .Book-appointment .line{
     position: absolute;
-    left: 66px;
+    left: 40px;
     top: 660px;    
  }
 
 .third-right-section .service-done-circle{
-    margin: 20px 0 0 -701px;
+    margin: 20px 0 0 -730px;
 }
 
 .third-right-section .service-done h2{
-    margin: -20px 0 0 -705px;
+    margin: -20px 0 0 -730px;
     
 }
 
 .third-right-section .service-done p{
-    margin: -1px 0 0 -705px;
+    margin: -1px 0 0 -730px;
     width: 200%;
 }
 
@@ -1567,7 +1568,117 @@ width: 150px;
         {
             margin-top: 200px;
         }
+  .learn-services p
+  {
+    margin: 10px 0 0 -730px;
+  }
 
+  .learn-services img{
+    margin: -1px 0 0 -705px;
+  }
+
+  .bottom-card h2{
+   margin-top: 1000px;
+   margin-right: 200px;
+  }
+
+  .bottom-card p{
+    margin-top: 1000px;
+   margin-right: 200px;
+  }
+
+
+
+ .fourth-section
+ {
+    height: 2500px;
+    
+ }
+
+ .fourth-left-section
+ {
+    width: 150%;
+    
+ }
+
+ .fourth-left-card
+ {
+    width: 50%;
+    margin: -160px 0 0 150px;
+    
+ }
+
+ .fourth-left-card h3{
+    width: 180px;
+    margin: -50px 0 0 20px;
+    font-size: 23px;
+ }
+
+ .fourth-left-card .myBtn
+ {
+margin: 200px 0 0 50px;
+ }
+
+ .fourth-right-section{
+    position: relative;
+    bottom: 680px;
+    left: 0px;
+    width: 100%;
+ }
+
+ .proffesional h2{
+    margin-left:-300px;
+    margin-top: 830px;
+ }
+
+ .proffesional p{
+    
+    margin-top: 840px;
+    margin-left: -158px;
+    font-size: 16px;
+ }
+
+ .Experience h2{
+    
+    position: absolute;
+    left: 480px;
+    top: 878px;
+ }
+
+ .Experience p{
+    margin-top: 840px;
+    margin-left: -190px;
+    font-size: 16px;
+    width: 100%;
+ }
+
+ .Service h2{
+    position: absolute;
+    left: 315px;
+    top: 1000px;
+ }
+
+ .Service p{
+    position: absolute;
+    left: 60px;
+    top: 1065px;
+    font-size: 16px;
+    width: 100%;
+ }
+
+ .customer-satisfaction h2{
+    position: absolute;
+    left: 490px;
+    top: 1000px;
+ }
+
+ .customer-satisfaction p{
+    position: absolute;
+    left: 210px;
+    top: 1065px;
+    font-size: 16px;
+    width: 100%;
+ }
 }
 
 @media screen and (min-width: 425px) and (max-width: 850px)
