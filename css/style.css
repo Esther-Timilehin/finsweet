@@ -207,18 +207,14 @@ width: 25px;
 
 .left-container p
 {
-    position: absolute;
-    top: 340px;
-    left: 40px;
+    margin: 50px 0 0 30px;
     color: #939191;
 font-size: 13px;
 }
 
 .left-container h5
 {
-    position: absolute;
-    top: 360px;
-    left: 40px;
+    margin: 2px 0 0 30px;
     color:  #1E1B1B;
 font-size: 14px;
 font-weight: 600;
@@ -326,8 +322,6 @@ font-weight: 600;
 font-weight: 450;
 }
 
-
-
 .second-rating .img1
 {
     
@@ -423,9 +417,7 @@ color: #1E1B1B;
 
 .first-left-box h4
 {
-    position: absolute;
-    top: 140px;
-    left: 50px;
+    margin: -40px 0 0 60px;
     font-size: 23px;
     font-weight: 600;
     color: #1E1B1B;
@@ -433,7 +425,7 @@ color: #1E1B1B;
 
 .first-left-box p
 {
-    padding-left: 45px;
+    margin: 10px 0 0 60px;
     line-height: 23px;
     font-size: 16px;
     color:#1E1B1B
@@ -447,9 +439,7 @@ color: #1E1B1B;
 
 .second-left-box h4
 {
-    position: absolute;
-    top: 260px;
-    left: 50px;
+   margin:-40px 0 0 60px;
     font-size: 23px;
     font-weight: 600;
     color: #1E1B1B;
@@ -457,7 +447,7 @@ color: #1E1B1B;
 
 .second-left-box p
 {
-    padding-left: 45px;
+    margin: 10px 0 0 60px;
     line-height: 23px;
     font-size: 16px;
     color:#1E1B1B
@@ -471,9 +461,7 @@ color: #1E1B1B;
 
 .third-left-box h4
 {
-    position: absolute;
-    top: 380px;
-    left: 50px;
+    margin:-40px 0 0 60px;
     font-size: 23px;
     font-weight: 600;
     color: #1E1B1B;
@@ -481,7 +469,7 @@ color: #1E1B1B;
 
 .third-left-box p
 {
-    padding-left: 45px;
+    margin: 10px 0 0 60px;
     line-height: 23px;
     font-size: 16px;
     color:#1E1B1B
@@ -496,9 +484,7 @@ color: #1E1B1B;
 }
 
 .third-left-box .arrow{
-    position: absolute;
-    top: 466px;
-    left: 210px;
+    margin: -280px 0 15px 200px;
 }
 
 #right-box h3
@@ -748,6 +734,7 @@ overflow: hidden;
 font-size: 20px;
 font-weight: 600;
 font-family: Manrope;
+margin-right: 50px;
 }
 
 .fourth-section h2
@@ -767,6 +754,7 @@ position: relative;
 .fourth-section h2 p
 {
     text-align: center;
+    margin: -45px 0 0 25px;
 }
 
 .box1
@@ -983,7 +971,7 @@ position: relative;
     width: 33px;
     position: absolute;
     bottom: 3px;
-    left: 130px;
+    left: 150px;
 }
 
 .fourth-left-section
@@ -1296,7 +1284,7 @@ width: 30px;
 }
 
 .left-container .myBtn{
-    margin: 320px 0 0 380px;
+    margin: 310px 0 0 380px;
     width: 130px;
     height: 50px;
     
@@ -1304,9 +1292,9 @@ width: 30px;
 
 .left-container p{
     
+    margin-left: 320px;
+    margin-top: 20px;
     position: absolute;
-    top: 535px;
-    left: 320px;
     width: 100%;
     font-size: 18px;
     z-index: 1;
@@ -1316,7 +1304,8 @@ width: 30px;
     
     position: absolute;
     top: 565px;
-    left: 320px;
+    margin-left: 320px;
+    left: 0px;
     width: 100%;
     font-size: 14px;
     width: 100%;
@@ -1338,59 +1327,60 @@ margin-left: -150px;
 
 .first-left-box img{
     
-    margin-left: -15px;
+    margin: -10px 0 0 -15px;
 }
 
 .first-left-box h4{
 
-margin: -65px 0 0 -5px;
+margin: -35px 0 0 45px;
 
 }
 
 .first-left-box p{
 font-size: 18px;
 font-weight: 400;
-margin: -10px 0 0 5px;
+margin: 10px 0 0 45px;
 line-height: 25px;
 }
 
 .second-left-box img{
     
-    margin: -10px 0 0 -10px;
+    margin: -20px 0 0 -10px;
 }
 
 .second-left-box h4{
-    margin: -55px 0 0 3px;
+    margin: -35px 0 0 48px;
 }
 
 .second-left-box p{
     font-size: 18px;
 font-weight: 400;
-margin: -10px 0 0 10px;
+margin: 10px 0 0 45px;
 line-height: 25px;
 }
 
 .third-left-box img{
-    margin: -15px 0 0 -10px;
+    margin: -20px 0 0 -10px;
 }
 
 .third-left-box h4{
-    margin: -50px 0 0 3px;
+    margin: -35px 0 0 48px;
 }
 
 .third-left-box p{
     font-size: 18px;
     font-weight: 400;
-    margin: -5px 0 0 15px;
+    margin: 10px 0 0 45px;
     line-height: 25px;
 }
 
 .third-left-box h6{
-    margin-left: 20px;
+    margin: -10px 0 0 20px;
 }
 
 .third-left-box .arrow{
-    margin: -20px 10px;
+    margin: -45px -220px 0 230px;
+    position: absolute;
 }
 
 #right-box .myBtn{
@@ -1504,14 +1494,19 @@ width: 90%;
 
 .fourth-section h3
 {
-padding-top: 20px;
+padding: -60px 0 0 250px;
+margin-left: 45px;
 }
 
 .fourth-section h2 {
-    margin-left: -390px;
+    margin-left: -395px;
     width: 100%;
     text-align: center;
 
+}
+
+.fourth-section p{
+    padding-top: 45px;
 }
 
 .fourth-section .box1{
@@ -1519,20 +1514,37 @@ margin: 10px 0 0 -160px;
 width: 150px;
 }
 
+.fourth-section .box1 p{
+    padding-top: 5px;
+}
+
 .fourth-section .box2{
     margin: 2px 0 0 -200px;
     width: 150px;
     }
+
+    .fourth-section .box2 p{
+        padding-top: 5px;
+    }
+    
 
     .fourth-section .box3{
         margin: 170px 0 0 -570px;
         width: 150px;
         }
 
+        .fourth-section .box3 p{
+            padding-top: 5px;
+        }
+
         .fourth-section .box4{
-            margin: 3px 80px 0 -610px;
+            margin: 1px 80px 0 -610px;
             width: 150px;
           
+        }
+
+        .fourth-section .box4 p{
+            padding-top: 5px;
         }
 
         .fourth-section .box5{
@@ -1540,9 +1552,17 @@ width: 150px;
             width: 150px;
         }
 
+        .fourth-section .box5 p{
+            padding-top: 5px;
+        }
+
         .fourth-section .box6{
             margin: 1px 80px 0 -200px;
             width: 150px;
+        }
+
+        .fourth-section .box6 p{
+            padding-top: 5px;
         }
 
         .fourth-section .box7{
@@ -1550,9 +1570,17 @@ width: 150px;
             width: 150px;
         }
 
+        .fourth-section .box7 p{
+            padding-top: 5px;
+        }
+
         .fourth-section .box8{
             margin: 1px 80px 0 -610px;
             width: 150px;
+        }
+
+        .fourth-section .box8 p{
+            padding-top: 5px;
         }
 
         .fourth-left-section 
@@ -1561,16 +1589,15 @@ width: 150px;
         }
   .learn-services p
   {
-    margin: 10px 0 0 -730px;
+    margin: -30px 0 0 -730px;
   }
 
   .learn-services img{
-    margin: -1px 0 0 -705px;
+    margin: -1px 0 0 -725px;
   }
 
   .bottom-card h2{
-   margin-top: 1000px;
-   margin-right: 200px;
+   margin: 1000px 200px 0 0;
   }
 
   .bottom-card p{
@@ -1615,8 +1642,7 @@ margin: 200px 0 0 50px;
  }
 
  .proffesional h2{
-    margin-left:-300px;
-    margin-top: 830px;
+    margin: 880px 0 0-300px;
  }
 
  .proffesional p{
@@ -1627,10 +1653,7 @@ margin: 200px 0 0 50px;
  }
 
  .Experience h2{
-    
-    position: absolute;
-    left: 480px;
-    top: 878px;
+    margin: 880px 0 0 -330px;
  }
 
  .Experience p{
@@ -1641,9 +1664,7 @@ margin: 200px 0 0 50px;
  }
 
  .Service h2{
-    position: absolute;
-    left: 315px;
-    top: 1000px;
+    margin: 1000px 0 0 -520px;
  }
 
  .Service p{
@@ -1655,9 +1676,7 @@ margin: 200px 0 0 50px;
  }
 
  .customer-satisfaction h2{
-    position: absolute;
-    left: 490px;
-    top: 1000px;
+    margin: 1000px 120px 0 -900px;
  }
 
  .customer-satisfaction p{
@@ -1749,7 +1768,7 @@ margin-right: -405px;
 
 .left-container img
 {
-    width: 80%;
+    width: 200%;
     margin: 820px 290px 0 0;
     position: absolute;
     z-index: 1;
@@ -1758,15 +1777,15 @@ margin-right: -405px;
 .left-container p{
 position: absolute;
 top: 400px;
-left: 55px;
+left: 35px;
 }
 
 .left-container h5{
     width: 300px;
     font-size: 20px;
     position: absolute;
-    top: 930px;
-    left: -395px;
+    top: 920px;
+    left: -438px;
     z-index: 1;
     color: #FFFFFF;
 }
@@ -1835,12 +1854,12 @@ height: 1450px;
  }
 
  .first-left-box h4{
-    margin: -17px 10px 0 -100px;
+    margin: -60px 10px 0 -40px;
     font-size: 35px;
  }
 
 .first-left-box p{
-    margin: -3px 10px 0 -85px;
+    margin: 13px 10px 0 -40px;
     font-size: 28px;
     width: 200%;
     line-height: 35px;
@@ -1852,12 +1871,12 @@ height: 1450px;
  }
 
  .second-left-box h4{
-    margin: 40px 10px 0 -93px;
+    margin: -60px 10px 0 -40px;
     font-size: 35px;
  }
 
 .second-left-box p{
-    margin: -3px 10px 0 -85px;
+    margin: 13px 10px 0 -40px;
     font-size: 28px;
     width: 200%;
     line-height: 35px;
@@ -1869,12 +1888,12 @@ height: 1450px;
  }
 
  .third-left-box h4{
-    margin: 105px 10px 0 -100px;
+    margin: -60px 10px 0 -40px;
     font-size: 35px;
  }
 
 .third-left-box p{
-    margin: -1px 10px 0 -93px;
+    margin: 13px 10px 0 -40px;
     font-size: 28px;
     width: 200%;
     line-height: 35px;
@@ -1886,7 +1905,8 @@ height: 1450px;
 } 
 
 .third-left-box .arrow{
-    margin: 180px 150px;
+    margin: -55px 0 0 360px;
+    position: absolute;
 }
 
  #right-box
@@ -2023,12 +2043,15 @@ height: 3000px;
 .fourth-section h3{
     font-size: 35px;
     text-align: center;
+    position: absolute;
+    top: 90px;
+    left: 300px;
 }
 
 .fourth-section h2{
     margin: 30px 0 0 -300px;
-    width: 70%;
-    line-height: 65px;
+    width: 80%;
+    line-height: 105px;
     text-align: center;
 }
 
@@ -2193,9 +2216,10 @@ font-size: 25px;
 {
 position: absolute;
 left: -300px;
-top: 23px;
+top: 25px;
 width: 10%;
 }
+
 .fourth-left-section
 {
     margin-top: 100px;   
@@ -2208,12 +2232,13 @@ width: 450px;
 }
 
 .fourth-left-card h3{
-    text-align: center;
-    line-height: 50px;
+        line-height: 50px;
+        margin: -20px 0 0 120px;
+        text-align: center;
 }
 
 .fourth-left-card .myBtn{
-    margin: 235px 0 0 180px;
+    margin: 235px 0 0 150px;
     font-size: 20px;
 }
 
@@ -2224,7 +2249,7 @@ width: 450px;
 }
 
 .bottom-card .proffesional h2{
-    margin: 1350px 0 0 -260px;
+    margin: 1320px 0 0 -290px;
     font-size: 60px;
 }
 
@@ -2235,7 +2260,7 @@ width: 450px;
 }
 
 .bottom-card .Experience h2{
-    margin: 1350px 0 0 -180px;
+    margin: 1320px 0 0 -200px;
     font-size: 60px;
 }
 
@@ -2245,7 +2270,7 @@ width: 450px;
 }
 
 .bottom-card .Service h2{
-    margin: 1550px 0 0 -640px;
+    margin: 1520px 0 0 -700px;
     font-size: 60px;
 }
 
@@ -2255,7 +2280,7 @@ width: 450px;
 }
 
 .bottom-card .customer-satisfaction h2{
-    margin: 1550px 0 0 -540px;
+    margin: 1520px 0 0 -580px;
     font-size: 60px;
 }
 
