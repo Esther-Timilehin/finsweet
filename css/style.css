@@ -1745,14 +1745,14 @@ display: flex;
 
  .telephone-assistant h3
  {
-    margin: 90px -150px 0 0; 
+    margin: 90px -170px 0 0; 
     font-size: 17px;
     font-weight: 600;
  }
 
  .telephone-assistant h4
  {
-    margin: 90px -140px 0 0; 
+    margin: 90px -150px 0 0; 
     font-size: 17px;
     font-weight: 300;
  }
@@ -1775,7 +1775,7 @@ display: flex;
 
  .left-container h1
  {
-    margin: 320px 0 0 270px;
+    margin: 270px 0 0 270px;
     position: absolute;
     z-index: 1;
     font-size: 30px;
@@ -1851,7 +1851,7 @@ width: 10%;
 }
 
 .left-container .myBtn{
-    margin: 470px 0 0 380px;
+    margin: 460px 0 0 380px;
     width: 130px;
     height: 50px;
 }
